@@ -1,4 +1,3 @@
-require 'rake'
 require 'devtools'
 
-Devtools.init
+Devtools.init_rake_tasks
