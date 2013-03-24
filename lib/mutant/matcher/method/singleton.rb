@@ -47,8 +47,8 @@ module Mutant
         #
         def match?(node)
           node.class == Rubinius::AST::DefineSingleton  &&
-          line?(node)                                   && 
-          name?(node)                                   && 
+          line?(node)                                   &&
+          name?(node)                                   &&
           receiver?(node)
         end
 
@@ -81,7 +81,7 @@ module Mutant
         # @api private
         #
         def name?(node)
-          node.body.name == method_name 
+          node.body.name == method_name
         end
 
         # Test for receiver match

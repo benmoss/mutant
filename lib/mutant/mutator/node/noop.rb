@@ -43,7 +43,7 @@ module Mutant
         handle(Rubinius::AST::Yield)
         handle(Rubinius::AST::Begin)
         handle(Rubinius::AST::Rescue)
-      
+
       private
 
         # Emit mutations

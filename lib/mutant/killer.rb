@@ -2,7 +2,7 @@ module Mutant
   # Abstract base class for mutant killers
   class Killer
     include Adamantium::Flat, AbstractType
-    
+
     # Test for kill failure
     #
     # @return [true]
@@ -68,7 +68,7 @@ module Mutant
     # @return [String]
     #
     # @api private
-    # 
+    #
     def identification
       "#{type}:#{mutation.identification}".freeze
     end
@@ -118,7 +118,7 @@ module Mutant
       start_time = Time.now
       @killed = run
       end_time = Time.now
-      @runtime = end_time - start_time 
+      @runtime = end_time - start_time
     end
 
     # Run test

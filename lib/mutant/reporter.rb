@@ -44,7 +44,7 @@ module Mutant
     abstract_method :killer
 
     # Report config
-    # 
+    #
     # @param [Mutant::Config] config
     #
     # @return [self]

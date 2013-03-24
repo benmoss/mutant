@@ -25,7 +25,7 @@ module Mutant
         # @param [String] input
         #
         # @return [Matcher::Method]
-        #   returns matcher when input is in 
+        #   returns matcher when input is in
         #
         # @return [nil]
         #   returns nil otherwise
@@ -82,7 +82,7 @@ module Mutant
           @match = match
         end
 
-        # Return scope 
+        # Return scope
         #
         # @return [Class|Module]
         #

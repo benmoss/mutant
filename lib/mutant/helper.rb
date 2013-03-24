@@ -25,7 +25,7 @@ module Mutant
     # @param [Object] key
     #
     # @return [Object] value
-    # 
+    #
     # @api private
     #
     def self.extract_option(options, key)

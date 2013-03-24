@@ -22,7 +22,7 @@ describe Mutant::Matcher::ObjectSpace, '#each' do
 
   let(:subject_a) { mock('Subject A') }
   let(:subject_b) { mock('Subject B') }
-  
+
   it_should_behave_like 'an #each method'
 
   it 'should yield subjects' do

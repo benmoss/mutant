@@ -2,7 +2,7 @@ require 'spec_helper'
 
 shared_examples_for 'an invalid cli run' do
   it 'should raise error' do
-    expect { subject }.to raise_error(described_class::Error, expected_message) 
+    expect { subject }.to raise_error(described_class::Error, expected_message)
   end
 end
 
@@ -47,7 +47,7 @@ describe Mutant::CLI, '.new' do
   context 'with code filter and missing argument' do
     let(:arguments) { %w(--rspec-unit --code) }
 
-    let(:expected_message) { '"--code" is missing an argument' } 
+    let(:expected_message) { '"--code" is missing an argument' }
 
     it_should_behave_like 'an invalid cli run'
   end
@@ -63,7 +63,7 @@ describe Mutant::CLI, '.new' do
 
   context 'with library name' do
     let(:arguments) { %w(::TestApp) }
-    
+
     let(:expected_matcher) { Mutant::Matcher::ObjectSpace.new(%r(\ATestApp(\z|::))) }
 
     it_should_behave_like 'a cli parser'

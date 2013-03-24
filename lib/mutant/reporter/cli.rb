@@ -149,7 +149,7 @@ module Mutant
       # @return [IO]
       #
       # @api private
-      # 
+      #
       attr_reader :io
 
       # Return stats
@@ -160,7 +160,7 @@ module Mutant
       #
       attr_reader :stats
 
-    private 
+    private
 
       # Initialize reporter
       #
@@ -177,7 +177,7 @@ module Mutant
       end
 
       # Report failure on killer
-      # 
+      #
       # @param [Killer] killer
       #
       # @return [undefined]
@@ -277,7 +277,7 @@ module Mutant
       #
       # @return [true]
       #   returns true if output is a tty
-      # 
+      #
       # @return [false]
       #   returns false otherwise
       #

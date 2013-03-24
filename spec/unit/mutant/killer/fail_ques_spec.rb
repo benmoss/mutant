@@ -23,7 +23,7 @@ describe Mutant::Killer,'#fail?' do
 
   context 'when mutant was killed' do
     let(:kill_state) { true }
-    
+
     it_should_behave_like 'an idempotent method'
 
     it { should be(false) }
@@ -31,7 +31,7 @@ describe Mutant::Killer,'#fail?' do
 
   context 'when mutant was NOT killed' do
     let(:kill_state) { false }
-    
+
     it_should_behave_like 'an idempotent method'
 
     it { should be(true) }

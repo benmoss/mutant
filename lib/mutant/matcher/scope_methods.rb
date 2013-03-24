@@ -17,7 +17,7 @@ module Mutant
       # @return [self]
       #   if block given
       #
-      # @return [Enumerator<Subject>] 
+      # @return [Enumerator<Subject>]
       #   otherwise
       #
       # @api private
@@ -99,7 +99,7 @@ module Mutant
 
       # Return method names
       #
-      # @return [Enumerable<Symbol>] 
+      # @return [Enumerable<Symbol>]
       #
       # @api private
       #

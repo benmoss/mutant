@@ -9,7 +9,7 @@ describe Mutant::CLI, '.run' do
   let(:runner)     { mock('Runner', :fail? => failure)                     }
   let(:instance)   { mock(described_class.name, :attributes => attributes) }
 
-  before do 
+  before do
     described_class.stub(:new => instance)
     Mutant::Runner.stub(:run => runner)
   end

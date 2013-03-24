@@ -115,7 +115,7 @@ module Mutant
 
     OPTION_PATTERN = %r(\A-(?:-)?[a-zA-Z0-9\-]+\z).freeze
 
-    # Initialize CLI 
+    # Initialize CLI
     #
     # @param [Array<String>] arguments
     #
@@ -201,7 +201,7 @@ module Mutant
     end
 
     # Process matcher argument
-    # 
+    #
     # @return [undefined]
     #
     # @api private
@@ -297,7 +297,7 @@ module Mutant
     # Require library
     #
     # @api private
-    # 
+    #
     # @return [undefined]
     #
     def require_library

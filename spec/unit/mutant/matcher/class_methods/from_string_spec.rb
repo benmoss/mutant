@@ -39,11 +39,10 @@ describe Mutant::Matcher, '.from_string' do
       descendant_b.stub(:parse => matcher_b)
     end
 
-    it 'should return the first matcher' do 
+    it 'should return the first matcher' do
       should be(matcher)
     end
 
     it_should_behave_like 'an idempotent method'
   end
 end
-

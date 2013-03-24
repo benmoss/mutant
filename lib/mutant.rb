@@ -17,7 +17,7 @@ require 'rspec'
 # Patch ice none to freeze nodes correctly
 class IceNine::Freezer
   # Rubinius namsepace
-  class Rubinius 
+  class Rubinius
     # AST namespace
     class AST < IceNine::Freezer::Object
       # Node configuration
@@ -80,7 +80,7 @@ require 'mutant/mutator/node/return'
 require 'mutant/mutator/node/iter_19'
 require 'mutant/mutator/node/if'
 require 'mutant/mutator/node/receiver_case'
-require 'mutant/loader' 
+require 'mutant/loader'
 require 'mutant/context'
 require 'mutant/context/scope'
 require 'mutant/subject'

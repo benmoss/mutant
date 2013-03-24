@@ -55,7 +55,7 @@ module Mutant
 
     private
 
-      # Initialize object space matcher 
+      # Initialize object space matcher
       #
       # @param [Regexp] scope_name_pattern
       # @param [Enumerable<#each(scope)>] matchers
@@ -105,8 +105,8 @@ module Mutant
       # @api private
       #
       def emit_scope(scope)
-        if [::Module, ::Class].include?(scope.class) and @scope_name_pattern =~ scope.name 
-          yield scope 
+        if [::Module, ::Class].include?(scope.class) and @scope_name_pattern =~ scope.name
+          yield scope
         end
       end
     end
