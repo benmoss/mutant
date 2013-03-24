@@ -1,9 +1,18 @@
 mutant
 ======
 
-[![Build Status](https://secure.travis-ci.org/mbj/mutant.png?branch=master)](http://travis-ci.org/mbj/mutant)
-[![Dependency Status](https://gemnasium.com/mbj/mutant.png)](https://gemnasium.com/mbj/mutant)
-[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/mbj/mutant)
+[![Gem Version](https://badge.fury.io/rb/mutant.png)][gem]
+[![Build Status](https://secure.travis-ci.org/mbj/mutant.png?branch=master)][travis]
+[![Dependency Status](https://gemnasium.com/mbj/mutant.png)][gemnasium]
+[![Code Climate](https://codeclimate.com/github/mbj/mutant.png)][codeclimate]
+[![Coverage Status](https://coveralls.io/repos/mbj/mutant/badge.png?branch=master)][coveralls]
+
+[gem]: https://rubygems.org/gems/mutant
+[travis]: https://travis-ci.org/mbj/mutant
+[gemnasium]: https://gemnasium.com/mbj/mutant
+[codeclimate]: https://codeclimate.com/github/mbj/mutant
+[coveralls]: https://coveralls.io/r/mbj/mutant
+
 
 Mutant is a mutation testing tool for ruby that aims to be better than existing mutation testers.
 
